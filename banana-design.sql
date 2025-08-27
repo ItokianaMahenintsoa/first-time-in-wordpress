@@ -16,12 +16,10 @@
 
 
 -- Listage de la structure de la base pour banana-design
-DROP DATABASE IF EXISTS `banana-design`;
 CREATE DATABASE IF NOT EXISTS `banana-design` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `banana-design`;
 
 -- Listage de la structure de table banana-design. wp_actionscheduler_actions
-DROP TABLE IF EXISTS `wp_actionscheduler_actions`;
 CREATE TABLE IF NOT EXISTS `wp_actionscheduler_actions` (
   `action_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `hook` varchar(191) COLLATE utf8mb4_unicode_520_ci NOT NULL,
@@ -47,23 +45,21 @@ CREATE TABLE IF NOT EXISTS `wp_actionscheduler_actions` (
   KEY `claim_id_status_priority_scheduled_date_gmt` (`claim_id`,`status`,`priority`,`scheduled_date_gmt`),
   KEY `status_last_attempt_gmt` (`status`,`last_attempt_gmt`),
   KEY `status_claim_id` (`status`,`claim_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_actionscheduler_claims
-DROP TABLE IF EXISTS `wp_actionscheduler_claims`;
 CREATE TABLE IF NOT EXISTS `wp_actionscheduler_claims` (
   `claim_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `date_created_gmt` datetime DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`claim_id`),
   KEY `date_created_gmt` (`date_created_gmt`)
-) ENGINE=InnoDB AUTO_INCREMENT=178 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=612 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_actionscheduler_groups
-DROP TABLE IF EXISTS `wp_actionscheduler_groups`;
 CREATE TABLE IF NOT EXISTS `wp_actionscheduler_groups` (
   `group_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `slug` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
@@ -74,7 +70,6 @@ CREATE TABLE IF NOT EXISTS `wp_actionscheduler_groups` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_actionscheduler_logs
-DROP TABLE IF EXISTS `wp_actionscheduler_logs`;
 CREATE TABLE IF NOT EXISTS `wp_actionscheduler_logs` (
   `log_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `action_id` bigint unsigned NOT NULL,
@@ -84,12 +79,11 @@ CREATE TABLE IF NOT EXISTS `wp_actionscheduler_logs` (
   PRIMARY KEY (`log_id`),
   KEY `action_id` (`action_id`),
   KEY `log_date_gmt` (`log_date_gmt`)
-) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_blc_filters
-DROP TABLE IF EXISTS `wp_blc_filters`;
 CREATE TABLE IF NOT EXISTS `wp_blc_filters` (
   `id` int unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL,
@@ -100,7 +94,6 @@ CREATE TABLE IF NOT EXISTS `wp_blc_filters` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_blc_instances
-DROP TABLE IF EXISTS `wp_blc_instances`;
 CREATE TABLE IF NOT EXISTS `wp_blc_instances` (
   `instance_id` int unsigned NOT NULL AUTO_INCREMENT,
   `link_id` int unsigned NOT NULL,
@@ -115,12 +108,11 @@ CREATE TABLE IF NOT EXISTS `wp_blc_instances` (
   KEY `link_id` (`link_id`),
   KEY `source_id` (`container_type`,`container_id`),
   KEY `parser_type` (`parser_type`)
-) ENGINE=InnoDB AUTO_INCREMENT=105 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=472 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_blc_links
-DROP TABLE IF EXISTS `wp_blc_links`;
 CREATE TABLE IF NOT EXISTS `wp_blc_links` (
   `link_id` int unsigned NOT NULL AUTO_INCREMENT,
   `url` text CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
@@ -152,12 +144,11 @@ CREATE TABLE IF NOT EXISTS `wp_blc_links` (
   KEY `last_check_attempt` (`last_check_attempt`),
   KEY `may_recheck` (`may_recheck`),
   KEY `check_count` (`check_count`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_blc_synch
-DROP TABLE IF EXISTS `wp_blc_synch`;
 CREATE TABLE IF NOT EXISTS `wp_blc_synch` (
   `container_id` int unsigned NOT NULL,
   `container_type` varchar(40) COLLATE utf8mb4_unicode_520_ci NOT NULL,
@@ -170,7 +161,6 @@ CREATE TABLE IF NOT EXISTS `wp_blc_synch` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_commentmeta
-DROP TABLE IF EXISTS `wp_commentmeta`;
 CREATE TABLE IF NOT EXISTS `wp_commentmeta` (
   `meta_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `comment_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -184,7 +174,6 @@ CREATE TABLE IF NOT EXISTS `wp_commentmeta` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_comments
-DROP TABLE IF EXISTS `wp_comments`;
 CREATE TABLE IF NOT EXISTS `wp_comments` (
   `comment_ID` bigint unsigned NOT NULL AUTO_INCREMENT,
   `comment_post_ID` bigint unsigned NOT NULL DEFAULT '0',
@@ -212,7 +201,6 @@ CREATE TABLE IF NOT EXISTS `wp_comments` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_e_events
-DROP TABLE IF EXISTS `wp_e_events`;
 CREATE TABLE IF NOT EXISTS `wp_e_events` (
   `id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `event_data` text COLLATE utf8mb4_unicode_520_ci,
@@ -224,7 +212,6 @@ CREATE TABLE IF NOT EXISTS `wp_e_events` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_hustle_entries
-DROP TABLE IF EXISTS `wp_hustle_entries`;
 CREATE TABLE IF NOT EXISTS `wp_hustle_entries` (
   `entry_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `entry_type` varchar(191) COLLATE utf8mb4_unicode_520_ci NOT NULL,
@@ -238,7 +225,6 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_entries` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_hustle_entries_meta
-DROP TABLE IF EXISTS `wp_hustle_entries_meta`;
 CREATE TABLE IF NOT EXISTS `wp_hustle_entries_meta` (
   `meta_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `entry_id` bigint unsigned NOT NULL,
@@ -255,7 +241,6 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_entries_meta` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_hustle_modules
-DROP TABLE IF EXISTS `wp_hustle_modules`;
 CREATE TABLE IF NOT EXISTS `wp_hustle_modules` (
   `module_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `blog_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -270,7 +255,6 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_modules` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_hustle_modules_meta
-DROP TABLE IF EXISTS `wp_hustle_modules_meta`;
 CREATE TABLE IF NOT EXISTS `wp_hustle_modules_meta` (
   `meta_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `module_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -284,7 +268,6 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_modules_meta` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_hustle_tracking
-DROP TABLE IF EXISTS `wp_hustle_tracking`;
 CREATE TABLE IF NOT EXISTS `wp_hustle_tracking` (
   `tracking_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `module_id` bigint unsigned NOT NULL,
@@ -306,7 +289,6 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_tracking` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_imagify_files
-DROP TABLE IF EXISTS `wp_imagify_files`;
 CREATE TABLE IF NOT EXISTS `wp_imagify_files` (
   `file_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `folder_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -335,7 +317,6 @@ CREATE TABLE IF NOT EXISTS `wp_imagify_files` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_imagify_folders
-DROP TABLE IF EXISTS `wp_imagify_folders`;
 CREATE TABLE IF NOT EXISTS `wp_imagify_folders` (
   `folder_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `path` varchar(191) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
@@ -348,7 +329,6 @@ CREATE TABLE IF NOT EXISTS `wp_imagify_folders` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_links
-DROP TABLE IF EXISTS `wp_links`;
 CREATE TABLE IF NOT EXISTS `wp_links` (
   `link_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `link_url` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
@@ -370,7 +350,6 @@ CREATE TABLE IF NOT EXISTS `wp_links` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_options
-DROP TABLE IF EXISTS `wp_options`;
 CREATE TABLE IF NOT EXISTS `wp_options` (
   `option_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `option_name` varchar(191) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
@@ -379,12 +358,11 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`),
   KEY `autoload` (`autoload`)
-) ENGINE=InnoDB AUTO_INCREMENT=825 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1522 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_postmeta
-DROP TABLE IF EXISTS `wp_postmeta`;
 CREATE TABLE IF NOT EXISTS `wp_postmeta` (
   `meta_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `post_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -393,12 +371,11 @@ CREATE TABLE IF NOT EXISTS `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=724 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1107 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_posts
-DROP TABLE IF EXISTS `wp_posts`;
 CREATE TABLE IF NOT EXISTS `wp_posts` (
   `ID` bigint unsigned NOT NULL AUTO_INCREMENT,
   `post_author` bigint unsigned NOT NULL DEFAULT '0',
@@ -428,12 +405,11 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=618 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=670 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_seopress_content_analysis
-DROP TABLE IF EXISTS `wp_seopress_content_analysis`;
 CREATE TABLE IF NOT EXISTS `wp_seopress_content_analysis` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `post_id` bigint DEFAULT NULL,
@@ -470,7 +446,6 @@ CREATE TABLE IF NOT EXISTS `wp_seopress_content_analysis` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_termmeta
-DROP TABLE IF EXISTS `wp_termmeta`;
 CREATE TABLE IF NOT EXISTS `wp_termmeta` (
   `meta_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `term_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -484,7 +459,6 @@ CREATE TABLE IF NOT EXISTS `wp_termmeta` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_terms
-DROP TABLE IF EXISTS `wp_terms`;
 CREATE TABLE IF NOT EXISTS `wp_terms` (
   `term_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
@@ -498,7 +472,6 @@ CREATE TABLE IF NOT EXISTS `wp_terms` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_term_relationships
-DROP TABLE IF EXISTS `wp_term_relationships`;
 CREATE TABLE IF NOT EXISTS `wp_term_relationships` (
   `object_id` bigint unsigned NOT NULL DEFAULT '0',
   `term_taxonomy_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -510,7 +483,6 @@ CREATE TABLE IF NOT EXISTS `wp_term_relationships` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_term_taxonomy
-DROP TABLE IF EXISTS `wp_term_taxonomy`;
 CREATE TABLE IF NOT EXISTS `wp_term_taxonomy` (
   `term_taxonomy_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `term_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -526,7 +498,6 @@ CREATE TABLE IF NOT EXISTS `wp_term_taxonomy` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_usermeta
-DROP TABLE IF EXISTS `wp_usermeta`;
 CREATE TABLE IF NOT EXISTS `wp_usermeta` (
   `umeta_id` bigint unsigned NOT NULL AUTO_INCREMENT,
   `user_id` bigint unsigned NOT NULL DEFAULT '0',
@@ -535,12 +506,11 @@ CREATE TABLE IF NOT EXISTS `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_users
-DROP TABLE IF EXISTS `wp_users`;
 CREATE TABLE IF NOT EXISTS `wp_users` (
   `ID` bigint unsigned NOT NULL AUTO_INCREMENT,
   `user_login` varchar(60) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
@@ -561,7 +531,6 @@ CREATE TABLE IF NOT EXISTS `wp_users` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_wpforms_logs
-DROP TABLE IF EXISTS `wp_wpforms_logs`;
 CREATE TABLE IF NOT EXISTS `wp_wpforms_logs` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `title` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
@@ -577,7 +546,6 @@ CREATE TABLE IF NOT EXISTS `wp_wpforms_logs` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_wpforms_payments
-DROP TABLE IF EXISTS `wp_wpforms_payments`;
 CREATE TABLE IF NOT EXISTS `wp_wpforms_payments` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `form_id` bigint NOT NULL,
@@ -613,7 +581,6 @@ CREATE TABLE IF NOT EXISTS `wp_wpforms_payments` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_wpforms_payment_meta
-DROP TABLE IF EXISTS `wp_wpforms_payment_meta`;
 CREATE TABLE IF NOT EXISTS `wp_wpforms_payment_meta` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `payment_id` bigint NOT NULL,
@@ -628,14 +595,13 @@ CREATE TABLE IF NOT EXISTS `wp_wpforms_payment_meta` (
 -- Les données exportées n'étaient pas sélectionnées.
 
 -- Listage de la structure de table banana-design. wp_wpforms_tasks_meta
-DROP TABLE IF EXISTS `wp_wpforms_tasks_meta`;
 CREATE TABLE IF NOT EXISTS `wp_wpforms_tasks_meta` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `action` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
   `data` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
   `date` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
