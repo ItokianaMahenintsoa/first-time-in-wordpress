@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `wp_actionscheduler_actions` (
   KEY `claim_id_status_priority_scheduled_date_gmt` (`claim_id`,`status`,`priority`,`scheduled_date_gmt`),
   KEY `status_last_attempt_gmt` (`status`,`last_attempt_gmt`),
   KEY `status_claim_id` (`status`,`claim_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS `wp_actionscheduler_claims` (
   `date_created_gmt` datetime DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`claim_id`),
   KEY `date_created_gmt` (`date_created_gmt`)
-) ENGINE=InnoDB AUTO_INCREMENT=612 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1039 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `wp_actionscheduler_logs` (
   PRIMARY KEY (`log_id`),
   KEY `action_id` (`action_id`),
   KEY `log_date_gmt` (`log_date_gmt`)
-) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=170 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS `wp_blc_instances` (
   KEY `link_id` (`link_id`),
   KEY `source_id` (`container_type`,`container_id`),
   KEY `parser_type` (`parser_type`)
-) ENGINE=InnoDB AUTO_INCREMENT=472 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=475 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -144,7 +144,7 @@ CREATE TABLE IF NOT EXISTS `wp_blc_links` (
   KEY `last_check_attempt` (`last_check_attempt`),
   KEY `may_recheck` (`may_recheck`),
   KEY `check_count` (`check_count`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -250,7 +250,7 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_modules` (
   `module_mode` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL,
   PRIMARY KEY (`module_id`),
   KEY `active` (`active`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -263,7 +263,7 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_modules_meta` (
   PRIMARY KEY (`meta_id`),
   KEY `module_id` (`module_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -284,7 +284,7 @@ CREATE TABLE IF NOT EXISTS `wp_hustle_tracking` (
   KEY `tracking_module_object` (`action`,`module_id`,`module_type`),
   KEY `tracking_module_object_ip` (`module_id`,`tracking_id`,`ip`),
   KEY `tracking_date_created` (`date_created` DESC)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -358,7 +358,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`),
   KEY `autoload` (`autoload`)
-) ENGINE=InnoDB AUTO_INCREMENT=1522 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2287 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -371,7 +371,7 @@ CREATE TABLE IF NOT EXISTS `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=1107 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1284 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -405,7 +405,7 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=670 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=683 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -441,7 +441,7 @@ CREATE TABLE IF NOT EXISTS `wp_seopress_content_analysis` (
   `analysis_date` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_post_id` (`post_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -506,7 +506,7 @@ CREATE TABLE IF NOT EXISTS `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -601,7 +601,7 @@ CREATE TABLE IF NOT EXISTS `wp_wpforms_tasks_meta` (
   `data` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
   `date` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- Les données exportées n'étaient pas sélectionnées.
 

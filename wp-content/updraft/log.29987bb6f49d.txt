@@ -1,0 +1,458 @@
+0000.001 (0) Opened log file at time: Fri, 29 Aug 2025 12:10:14 +0000 on http://localhost:8888/banana-design
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.3.16 (apache2handler, Windows NT FIV_46 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.4.3 (max packet size=536870912) WPLANG: fr_FR Server: Apache/2.4.62 (Win64) OpenSSL/3.0.15 PHP/8.3.16 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 101.5M | 104M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.022 (0) Free space on disk containing Updraft's temporary directory: 43561.2 MB
+0000.034 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.046 (0) Semaphore (fd, wp_options) being initialised
+0000.070 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.098 (0) Set semaphore last lock (fd) time to 2025-08-29 12:10:14
+0000.106 (0) Semaphore lock (fd) complete
+0000.132 (0) Backup run: resumption=0, nonce=29987bb6f49d, file_nonce=29987bb6f49d begun at=1756469414 (0s ago), job type=backup
+0000.150 (0) Scheduling a resumption (1) after 300 seconds (1756469714) in case this run gets aborted
+0000.214 (0) Checking if we have a zip executable available
+0000.231 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.241 (0) Creation of backups of directories: beginning
+0000.270 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0010.971 (0) Total entities for the zip file: 2359 directories, 12672 files (0 skipped as non-modified), 181.6 MB
+0010.978 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 186003.5 KB, split: 409600 KB)
+0011.073 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.143 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.217 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.273 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.336 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0011.408 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0011.473 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0011.539 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0011.592 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0011.655 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0011.723 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0011.790 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0011.850 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0011.919 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0011.991 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0012.059 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0012.132 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0012.206 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0012.290 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0012.364 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0012.440 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0012.512 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0012.585 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0012.660 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0012.742 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0012.802 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0012.868 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0012.933 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0013.004 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0013.071 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0013.143 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0013.216 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0013.287 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0013.351 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0013.424 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0013.498 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0013.564 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0013.633 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0013.706 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0013.771 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0013.834 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0013.910 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0013.966 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0014.023 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0014.085 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0014.148 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0014.200 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0014.245 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0014.289 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0014.337 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0014.384 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0014.430 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0014.479 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0014.532 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0014.580 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0014.626 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0014.682 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0014.728 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0014.777 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0014.824 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0014.870 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0014.916 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0014.962 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0015.008 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0015.055 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0015.103 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0015.154 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0015.204 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0015.251 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0015.297 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0015.346 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0015.394 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7200 files added (on-disk size: 0 KB)
+0015.454 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7300 files added (on-disk size: 0 KB)
+0015.504 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7400 files added (on-disk size: 0 KB)
+0015.551 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7500 files added (on-disk size: 0 KB)
+0015.596 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7600 files added (on-disk size: 0 KB)
+0015.645 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7700 files added (on-disk size: 0 KB)
+0015.697 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7800 files added (on-disk size: 0 KB)
+0015.746 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 7900 files added (on-disk size: 0 KB)
+0015.794 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8000 files added (on-disk size: 0 KB)
+0015.840 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0015.888 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0015.936 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0015.982 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0016.027 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8500 files added (on-disk size: 0 KB)
+0016.075 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8600 files added (on-disk size: 0 KB)
+0016.122 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8700 files added (on-disk size: 0 KB)
+0016.169 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8800 files added (on-disk size: 0 KB)
+0016.225 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 8900 files added (on-disk size: 0 KB)
+0016.273 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9000 files added (on-disk size: 0 KB)
+0016.323 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9100 files added (on-disk size: 0 KB)
+0016.372 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9200 files added (on-disk size: 0 KB)
+0016.422 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9300 files added (on-disk size: 0 KB)
+0016.471 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9400 files added (on-disk size: 0 KB)
+0016.520 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9500 files added (on-disk size: 0 KB)
+0016.566 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9600 files added (on-disk size: 0 KB)
+0016.611 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9700 files added (on-disk size: 0 KB)
+0016.656 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9800 files added (on-disk size: 0 KB)
+0016.703 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 9900 files added (on-disk size: 0 KB)
+0016.752 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10000 files added (on-disk size: 0 KB)
+0016.811 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10100 files added (on-disk size: 0 KB)
+0016.860 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10200 files added (on-disk size: 0 KB)
+0016.912 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10300 files added (on-disk size: 0 KB)
+0016.973 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10400 files added (on-disk size: 0 KB)
+0017.024 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10500 files added (on-disk size: 0 KB)
+0017.076 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10600 files added (on-disk size: 0 KB)
+0017.131 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10700 files added (on-disk size: 0 KB)
+0017.185 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10800 files added (on-disk size: 0 KB)
+0017.243 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 10900 files added (on-disk size: 0 KB)
+0017.301 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11000 files added (on-disk size: 0 KB)
+0017.353 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11100 files added (on-disk size: 0 KB)
+0017.413 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11200 files added (on-disk size: 0 KB)
+0017.465 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11300 files added (on-disk size: 0 KB)
+0017.520 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11400 files added (on-disk size: 0 KB)
+0017.571 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11500 files added (on-disk size: 0 KB)
+0017.625 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11600 files added (on-disk size: 0 KB)
+0017.688 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11700 files added (on-disk size: 0 KB)
+0017.743 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11800 files added (on-disk size: 0 KB)
+0017.803 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 11900 files added (on-disk size: 0 KB)
+0017.860 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 12000 files added (on-disk size: 0 KB)
+0017.911 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 12100 files added (on-disk size: 0 KB)
+0017.968 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 12200 files added (on-disk size: 0 KB)
+0018.024 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 12300 files added (on-disk size: 0 KB)
+0018.077 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 12400 files added (on-disk size: 0 KB)
+0018.130 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 12500 files added (on-disk size: 0 KB)
+0018.191 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.tmp: 12600 files added (on-disk size: 0 KB)
+0872.892 (0) The time we have been running (872.9) is approaching the resumption interval (300) - increasing resumption interval to 903
+0873.111 (0) Creating zip file manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.list-temp.tmp)
+0873.191 (0) Successfully created zip file manifest (size: 1152540)
+0874.051 (0) Created plugins zip (0) - 57673.4 KB in 873.8 s (66 KB/s) (sha1: f7abaad4b1a5a1578347ec8b283239527bad3633, sha256: 2f0d23bdea311b1edcd7c1f7d9c9316aa8c0332dca0bf41626f6fcace9f19e8d)
+0874.089 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0874.097 (0) No remote despatch: user chose no remote backup service
+0874.105 (0) Recording as successfully uploaded: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip
+0874.123 (0) Deleting zip manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip.list.tmp)
+0874.142 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0874.151 (0) Number of backup sets in history: 0; groups (db): 1
+0874.159 (0) Number of backup sets in history: 0; groups (files): 1
+0874.168 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0874.215 (0) Beginning creation of dump of themes (split every: 400 MB)
+0874.982 (0) Total entities for the zip file: 188 directories, 1287 files (0 skipped as non-modified), 39.2 MB
+0874.994 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 40178.5 KB, split: 409600 KB)
+0875.050 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0875.109 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0875.165 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0875.226 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0875.296 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0875.353 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0875.409 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0875.463 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0875.519 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0875.572 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0875.626 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0875.685 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0934.644 (0) The time we have been running (934.6) is approaching the resumption interval (903) - increasing resumption interval to 965
+0934.674 (0) Creating zip file manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.list-temp.tmp)
+0934.693 (0) Successfully created zip file manifest (size: 90261)
+0935.099 (0) Created themes zip (0) - 25963.1 KB in 60.9 s (426.6 KB/s) (sha1: 5540b95e744109be0fc41281b463ed1b7d7f670d, sha256: 5e6835a824a382fd710c771e266004744adb418bf9cc50f64a0141fb2e3789bf)
+0935.130 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0935.137 (0) No remote despatch: user chose no remote backup service
+0935.148 (0) Recording as successfully uploaded: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip
+0935.166 (0) Deleting zip manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip.list.tmp)
+0935.183 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0935.193 (0) Number of backup sets in history: 0; groups (db): 1
+0935.204 (0) Number of backup sets in history: 0; groups (files): 1
+0935.212 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0935.249 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0935.258 (0) Looking for candidates to backup in: C:\laragon\www\banana-design/wp-content/uploads
+0935.266 (0) finding files: 2016: adding to list (1)
+0935.275 (0) finding files: 2022: adding to list (2)
+0935.283 (0) finding files: 2025: adding to list (3)
+0935.291 (0) finding files: backup: skipping: excluded by options (glob)
+0935.300 (0) finding files: elementor: adding to list (4)
+0935.307 (0) finding files: oceanwp-webfonts: adding to list (5)
+0935.315 (0) finding files: oceanwp-webfonts-css: adding to list (6)
+0935.324 (0) finding files: wpforms: adding to list (7)
+0935.332 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0935.634 (0) Total entities for the zip file: 19 directories, 318 files (0 skipped as non-modified), 28.9 MB
+0935.642 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 29572.7 KB, split: 409600 KB)
+0935.701 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0935.775 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0935.830 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0942.183 (0) The time we have been running (942.1) is approaching the resumption interval (965) - increasing resumption interval to 973
+0942.204 (0) Creating zip file manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-uploads.zip.list-temp.tmp)
+0942.217 (0) Successfully created zip file manifest (size: 18193)
+0942.624 (0) Created uploads zip (0) - 27311.9 KB in 7.3 s (3757.3 KB/s) (sha1: 33c54ce5e48884de89ee6db8b3d849a231fb357d, sha256: 5329a57354bfc1b31096ecd0f27388c86ce169a3fe9fad28cf14e672db853e4b)
+0942.648 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0942.658 (0) No remote despatch: user chose no remote backup service
+0942.664 (0) Recording as successfully uploaded: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-uploads.zip
+0942.682 (0) Deleting zip manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-uploads.zip.list.tmp)
+0942.699 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0942.708 (0) Number of backup sets in history: 0; groups (db): 1
+0942.716 (0) Number of backup sets in history: 0; groups (files): 1
+0942.725 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0942.752 (0) No backup of mu-plugins: excluded by user's options
+0942.768 (0) Beginning backup of other directories found in the content directory (index: 0)
+0942.775 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0942.784 (0) Looking for candidates to backup in: C:\laragon\www\banana-design/wp-content
+0942.791 (0) finding files: index.php: adding to list (1)
+0942.820 (0) finding files: languages: adding to list (2)
+0942.828 (0) finding files: plugins: skipping: this is the plugins directory
+0942.836 (0) finding files: themes: skipping: this is the themes directory
+0942.844 (0) finding files: updraft: skipping: this is the updraft directory
+0942.852 (0) finding files: upgrade: skipping: excluded by options
+0942.859 (0) finding files: uploads: skipping: this is the uploads directory
+0942.984 (0) Total entities for the zip file: 3 directories, 208 files (0 skipped as non-modified), 9.8 MB
+0942.992 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 10059.1 KB, split: 409600 KB)
+0943.048 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0943.122 (0) Zip: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0945.909 (0) The time we have been running (945.9) is approaching the resumption interval (973) - increasing resumption interval to 976
+0945.927 (0) Creating zip file manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-others.zip.list-temp.tmp)
+0945.939 (0) Successfully created zip file manifest (size: 14041)
+0946.023 (0) Created others zip (0) - 2773.3 KB in 3.1 s (882 KB/s) (sha1: 923b95f2a78b37bb70b9fa03b0ec90e8019570c6, sha256: bee618d9abc5995728f5a465e400bd29e596d11eff97fee190aa24091f69d97c)
+0946.050 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0946.059 (0) No remote despatch: user chose no remote backup service
+0946.067 (0) Recording as successfully uploaded: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-others.zip
+0946.087 (0) Deleting zip manifest (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-others.zip.list.tmp)
+0946.108 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0946.122 (0) Number of backup sets in history: 0; groups (db): 1
+0946.131 (0) Number of backup sets in history: 0; groups (files): 1
+0946.140 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0946.206 (0) Saving backup status to database (elements: 8)
+0946.224 (0) Beginning creation of database dump (WordPress DB)
+0946.233 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0946.310 (0) Table wp_options: Total expected rows (via COUNT): 348
+0946.320 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0946.385 (0) Table wp_options: Rows added in this batch (next record: 1776): 344 (uncompressed bytes in this segment=793340) in 0.09 seconds
+0946.420 (0) The time we have been running (946.4) is approaching the resumption interval (976) - increasing resumption interval to 977
+0946.449 (0) Table wp_options: finishing file(s) (2, 155.3 KB)
+0946.477 (0) Table wp_users: Total expected rows (via COUNT): 1
+0946.485 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0946.505 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1444) in 0.03 seconds
+0946.535 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0946.570 (0) Table wp_usermeta: Total expected rows (via COUNT): 27
+0946.579 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0946.597 (0) Table wp_usermeta: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=2827) in 0.04 seconds
+0946.636 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0946.670 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 45
+0946.677 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0946.693 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 70): 45 (uncompressed bytes in this segment=20893) in 0.04 seconds
+0946.748 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.2 KB)
+0946.777 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0946.796 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.02 seconds
+0946.826 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0946.934 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0946.942 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0946.968 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=727) in 0.04 seconds
+0947.013 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0947.047 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 121
+0947.053 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0947.076 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 121): 121 (uncompressed bytes in this segment=11105) in 0.03 seconds
+0947.121 (0) The time we have been running (947.1) is approaching the resumption interval (977) - increasing resumption interval to 978
+0947.156 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.6 KB)
+0947.198 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0947.215 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.03 seconds
+0947.252 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0947.278 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0947.288 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0947.305 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2226) in 0.03 seconds
+0947.338 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0947.383 (0) Table wp_imagify_files: Total expected rows (via COUNT): 0
+0947.401 (0) Table wp_imagify_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1487) in 0.03 seconds
+0947.447 (0) Table wp_imagify_files: finishing file(s) (2, 0.5 KB)
+0947.488 (0) Table wp_imagify_folders: Total expected rows (via COUNT): 0
+0947.497 (0) Table wp_imagify_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.02 seconds
+0947.528 (0) Table wp_imagify_folders: finishing file(s) (2, 0.4 KB)
+0947.564 (0) Table wp_links: Total expected rows (via COUNT): 0
+0947.571 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0947.603 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0947.683 (0) Table wp_postmeta: Total expected rows (via COUNT): 925
+0947.690 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0947.776 (0) Table wp_postmeta: Rows added in this batch (next record: 1139): 925 (uncompressed bytes in this segment=2490159) in 0.15 seconds
+0947.816 (0) Table wp_postmeta: finishing file(s) (2, 264.5 KB)
+0947.876 (0) Table wp_posts: Total expected rows (via COUNT): 141
+0947.885 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0947.920 (0) Table wp_posts: Rows added in this batch (next record: 673): 141 (uncompressed bytes in this segment=1013158) in 0.08 seconds
+0947.960 (0) Table wp_posts: finishing file(s) (2, 41 KB)
+0947.986 (0) Table wp_term_relationships: Total expected rows (approximate): 27
+0948.005 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1054) in 0.02 seconds
+0948.050 (0) The time we have been running (948) is approaching the resumption interval (978) - increasing resumption interval to 979
+0948.088 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0948.136 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 10
+0948.146 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0948.171 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1221) in 0.05 seconds
+0948.214 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0948.268 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0948.285 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.04 seconds
+0948.326 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0948.354 (0) Table wp_terms: Total expected rows (via COUNT): 10
+0948.363 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0948.386 (0) Table wp_terms: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1011) in 0.04 seconds
+0948.431 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0948.470 (0) Table wp_blc_filters: Total expected rows (via COUNT): 0
+0948.489 (0) Table wp_blc_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=533) in 0.03 seconds
+0948.520 (0) Table wp_blc_filters: finishing file(s) (2, 0.3 KB)
+0948.549 (0) Table wp_blc_instances: Total expected rows (via COUNT): 49
+0948.556 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0948.575 (0) Table wp_blc_instances: Rows added in this batch (next record: 474): 49 (uncompressed bytes in this segment=6383) in 0.03 seconds
+0948.607 (0) Table wp_blc_instances: finishing file(s) (2, 1.2 KB)
+0948.632 (0) Table wp_blc_links: Total expected rows (via COUNT): 21
+0948.640 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0948.659 (0) Table wp_blc_links: Rows added in this batch (next record: 35): 21 (uncompressed bytes in this segment=31898) in 0.03 seconds
+0948.690 (0) Table wp_blc_links: finishing file(s) (2, 5.6 KB)
+0948.718 (0) Table wp_blc_synch: Total expected rows (approximate): 16
+0948.739 (0) Table wp_blc_synch: Rows added in this batch (next record: 1000): 16 (uncompressed bytes in this segment=1329) in 0.02 seconds
+0948.769 (0) Table wp_blc_synch: finishing file(s) (2, 0.5 KB)
+0948.801 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0948.808 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.01 seconds
+0948.839 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0948.873 (0) Table wp_hustle_entries: Total expected rows (via COUNT): 0
+0948.881 (0) Table wp_hustle_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.01 seconds
+0948.913 (0) Table wp_hustle_entries: finishing file(s) (2, 0.4 KB)
+0948.968 (0) Table wp_hustle_entries_meta: Total expected rows (via COUNT): 0
+0948.989 (0) Table wp_hustle_entries_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=888) in 0.04 seconds
+0949.042 (0) The time we have been running (949) is approaching the resumption interval (979) - increasing resumption interval to 980
+0949.074 (0) Table wp_hustle_entries_meta: finishing file(s) (2, 0.4 KB)
+0949.104 (0) Table wp_hustle_modules: Total expected rows (via COUNT): 1
+0949.110 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0949.130 (0) Table wp_hustle_modules: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=867) in 0.03 seconds
+0949.166 (0) Table wp_hustle_modules: finishing file(s) (2, 0.4 KB)
+0949.202 (0) Table wp_hustle_modules_meta: Total expected rows (via COUNT): 9
+0949.209 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0949.222 (0) Table wp_hustle_modules_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=77801) in 0.03 seconds
+0949.276 (0) Table wp_hustle_modules_meta: finishing file(s) (2, 10.3 KB)
+0949.314 (0) Table wp_hustle_tracking: Total expected rows (via COUNT): 1
+0949.324 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0949.335 (0) Table wp_hustle_tracking: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1324) in 0.03 seconds
+0949.376 (0) Table wp_hustle_tracking: finishing file(s) (2, 0.6 KB)
+0949.436 (0) Table wp_seopress_content_analysis: Total expected rows (via COUNT): 1
+0949.446 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0949.459 (0) Table wp_seopress_content_analysis: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3906) in 0.05 seconds
+0949.508 (0) Table wp_seopress_content_analysis: finishing file(s) (2, 1.1 KB)
+0949.571 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 29
+0949.579 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0949.600 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=3761) in 0.06 seconds
+0949.647 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.7 KB)
+0949.688 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0949.705 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.03 seconds
+0949.745 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0949.771 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0949.790 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.02 seconds
+0949.823 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0949.864 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0949.873 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0949.891 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 10): 5 (uncompressed bytes in this segment=1038) in 0.04 seconds
+0949.929 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0949.937 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\laragon\www\banana-design/wp-content/updraft/backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db.gz (line 1923, C:\laragon\www\banana-design\wp-content\plugins\updraftplus\backup.php)
+0949.949 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_options.table.tmpr1777.gz (1/33/fopen): adding to final database dump
+0949.962 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_options.table.gz (2/33/fopen): adding to final database dump
+0949.971 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_users.table.tmpr2.gz (3/33/fopen): adding to final database dump
+0949.980 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_users.table.gz (4/33/fopen): adding to final database dump
+0949.988 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_usermeta.table.tmpr28.gz (5/33/fopen): adding to final database dump
+0949.998 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_usermeta.table.gz (6/33/fopen): adding to final database dump
+0950.005 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_actions.table.tmpr71.gz (7/33/fopen): adding to final database dump
+0950.019 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_actions.table.gz (8/33/fopen): adding to final database dump
+0950.032 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/33/fopen): adding to final database dump
+0950.046 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_claims.table.gz (10/33/fopen): adding to final database dump
+0950.056 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/33/fopen): adding to final database dump
+0950.070 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_groups.table.gz (12/33/fopen): adding to final database dump
+0950.080 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_logs.table.tmpr122.gz (13/33/fopen): adding to final database dump
+0950.093 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_actionscheduler_logs.table.gz (14/33/fopen): adding to final database dump
+0950.104 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_commentmeta.table.tmpr0.gz (15/33/fopen): adding to final database dump
+0950.118 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_commentmeta.table.gz (16/33/fopen): adding to final database dump
+0950.127 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_comments.table.tmpr2.gz (17/33/fopen): adding to final database dump
+0950.138 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_comments.table.gz (18/33/fopen): adding to final database dump
+0950.145 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_imagify_files.table.tmpr0.gz (19/33/fopen): adding to final database dump
+0950.156 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_imagify_files.table.gz (20/33/fopen): adding to final database dump
+0950.165 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_imagify_folders.table.tmpr0.gz (21/33/fopen): adding to final database dump
+0950.176 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_imagify_folders.table.gz (22/33/fopen): adding to final database dump
+0950.187 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_links.table.tmpr0.gz (23/33/fopen): adding to final database dump
+0950.196 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_links.table.gz (24/33/fopen): adding to final database dump
+0950.207 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_postmeta.table.tmpr1140.gz (25/33/fopen): adding to final database dump
+0950.232 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_postmeta.table.gz (26/33/fopen): adding to final database dump
+0950.252 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_posts.table.tmpr674.gz (27/33/fopen): adding to final database dump
+0950.265 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_posts.table.gz (28/33/fopen): adding to final database dump
+0950.274 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_term_relationships.table.tmpr100001.gz (29/33/fopen): adding to final database dump
+0950.283 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_term_relationships.table.gz (30/33/fopen): adding to final database dump
+0950.293 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_term_taxonomy.table.tmpr11.gz (31/33/fopen): adding to final database dump
+0950.302 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_term_taxonomy.table.gz (32/33/fopen): adding to final database dump
+0950.310 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_termmeta.table.tmpr0.gz (33/33/fopen): adding to final database dump
+0950.319 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_termmeta.table.gz (34/33/fopen): adding to final database dump
+0950.327 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_terms.table.tmpr11.gz (35/33/fopen): adding to final database dump
+0950.336 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_terms.table.gz (36/33/fopen): adding to final database dump
+0950.344 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_filters.table.tmpr0.gz (37/33/fopen): adding to final database dump
+0950.354 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_filters.table.gz (38/33/fopen): adding to final database dump
+0950.363 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_instances.table.tmpr475.gz (39/33/fopen): adding to final database dump
+0950.371 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_instances.table.gz (40/33/fopen): adding to final database dump
+0950.382 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_links.table.tmpr36.gz (41/33/fopen): adding to final database dump
+0950.388 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_links.table.gz (42/33/fopen): adding to final database dump
+0950.399 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_synch.table.tmpr1001.gz (43/33/fopen): adding to final database dump
+0950.405 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_blc_synch.table.gz (44/33/fopen): adding to final database dump
+0950.417 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_e_events.table.tmpr0.gz (45/33/fopen): adding to final database dump
+0950.425 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_e_events.table.gz (46/33/fopen): adding to final database dump
+0950.434 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_entries.table.tmpr0.gz (47/33/fopen): adding to final database dump
+0950.442 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_entries.table.gz (48/33/fopen): adding to final database dump
+0950.452 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_entries_meta.table.tmpr0.gz (49/33/fopen): adding to final database dump
+0950.461 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_entries_meta.table.gz (50/33/fopen): adding to final database dump
+0950.469 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_modules.table.tmpr2.gz (51/33/fopen): adding to final database dump
+0950.479 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_modules.table.gz (52/33/fopen): adding to final database dump
+0950.486 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_modules_meta.table.tmpr10.gz (53/33/fopen): adding to final database dump
+0950.497 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_modules_meta.table.gz (54/33/fopen): adding to final database dump
+0950.507 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_tracking.table.tmpr2.gz (55/33/fopen): adding to final database dump
+0950.517 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_hustle_tracking.table.gz (56/33/fopen): adding to final database dump
+0950.525 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_seopress_content_analysis.table.tmpr2.gz (57/33/fopen): adding to final database dump
+0950.536 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_seopress_content_analysis.table.gz (58/33/fopen): adding to final database dump
+0950.543 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_logs.table.tmpr30.gz (59/33/fopen): adding to final database dump
+0950.553 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_logs.table.gz (60/33/fopen): adding to final database dump
+0950.560 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (61/33/fopen): adding to final database dump
+0950.570 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_payment_meta.table.gz (62/33/fopen): adding to final database dump
+0950.577 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_payments.table.tmpr0.gz (63/33/fopen): adding to final database dump
+0950.589 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_payments.table.gz (64/33/fopen): adding to final database dump
+0950.597 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_tasks_meta.table.tmpr11.gz (65/33/fopen): adding to final database dump
+0950.605 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db-table-wp_wpforms_tasks_meta.table.gz (66/33/fopen): adding to final database dump
+0950.636 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db.gz: finished writing out complete database file (495.4 KB)
+0950.695 (0) Total database tables backed up: 33 (backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db.gz, size: 507370, sha1: 715d2f9b2e33f216472ee1dafca92c32a1b860f8, sha256: 6b869dc722a6b64730c71d8c2731a4da2462aafa32b9df4da896945658af9851)
+0950.733 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-plugins.zip: plugins: This file has already been successfully processed
+0950.742 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-themes.zip: themes: This file has already been successfully processed
+0950.750 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-uploads.zip: uploads: This file has already been successfully processed
+0950.758 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-others.zip: others: This file has already been successfully processed
+0950.766 (0) backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0950.774 (0) Saving backup history. Total backup size: 111.5 MB
+0950.791 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0950.816 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0950.825 (0) No remote despatch: user chose no remote backup service
+0950.833 (0) Recording as successfully uploaded: backup_2025-08-29-1410_Banana_Design_29987bb6f49d-db.gz
+0950.867 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0950.878 (0) Number of backup sets in history: 1; groups (db): 1
+0950.888 (0) Examining (for databases) backup set with group_id=0, nonce=29987bb6f49d, datestamp=1756469414 (Aug 29 2025 12:10:14)
+0950.897 (0) This backup set is the backup set just made, so will not be deleted.
+0950.897 (0) Number of backup sets in history: 1; groups (files): 1
+0950.908 (0) Examining (for files) backup set with nonce=29987bb6f49d, datestamp=1756469414 (Aug 29 2025 12:10:14)
+0950.908 (0) This backup set is the backup set just made, so will not be deleted.
+0950.916 (0) This backup set is the backup set just made, so will not be deleted.
+0950.916 (0) This backup set is the backup set just made, so will not be deleted.
+0950.916 (0) This backup set is the backup set just made, so will not be deleted.
+0950.917 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0950.928 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0950.947 (0) Resume backup (29987bb6f49d, 0): finish run
+0950.975 (0) Decremented the semaphore (fd) by 1
+0950.992 (0) Semaphore (fd) unlocked
+0950.999 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0951.031 (0) No email will/can be sent - the user has not configured an email address.
+0951.038 (0) The backup succeeded and is now complete
